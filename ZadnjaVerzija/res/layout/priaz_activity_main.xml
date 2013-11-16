@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/tvNamePetrol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvAddressPetrol"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/icon"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:text="Name station"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvPhonePetrol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_alignLeft="@+id/tvAddressPetrol"
+        android:layout_alignRight="@+id/tvAddressPetrol"
+        android:gravity="center_vertical"
+        android:text="Phone station"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvPhonePetrol"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/icon"
+        android:gravity="center_vertical"
+        android:text="Time station"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvAddressPetrol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvTime"
+        android:layout_alignLeft="@+id/tvTime"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:text="Address station"
+        android:textSize="14dp" />
+
+</RelativeLayout>
