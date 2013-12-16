@@ -17,8 +17,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.zadnjaverzija.MainActivity"
-            android:icon="@drawable/gas_stationab"
-            android:label="Benze" >
+            android:icon="@drawable/gas_stationab" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
